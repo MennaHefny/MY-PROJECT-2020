@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 150px;
+}
+
+
+/* start header   */
+
+
+.header {
+    background-image: url(../imagesTwo/phtograghy.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+}
+
+.textheader {
+    width: 50%;
+}
+
+.textheader h1 {
+    font-size: 50px !important;
+}
+
+.textheader p {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.textheader a {
+    height: 40px;
+    margin-top: 15px;
+}
+
+
+/* end header   */
+
+
+
+/* start section2   */
+
+.section2 {
+    background-color: #F8F8F8;
+    margin-top: 50px;
+    margin-left: 15px;
+    
+}
+.section3 {
+    background-color: #F8F8F8;
+    margin-top: 50px;
+    margin-left: 15px;
+   
+}
+.section3 .cardOne{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: url(../imagesTwo/family.jpg);
+    background-size: cover;
+    
+    color: #fff;
+    transition: all 1s ease-in-out;
+    
+}
+
+.section3 .cardTwo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    background-image: url(../imagesTwo/kids.jpg);
+    background-size: cover;
+   
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+.section3 .cardThree{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-image: url(../imagesTwo/pexels-mohamed-almari-370142.jpg);
+    background-size: cover;
+     background-position: center center;
+   
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+.section3 .cardOne:hover,.cardTwo:hover,.cardThree:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+/* start section4   */
+.section4 {
+    background-color: #F8F8F8;
+    margin-top: 50px;
+    margin-left: 15px;
+   
+}
+.zoomer,.zoomerOne{
+    transition: all 1s ease-in-out;
+}
+.zoomer:hover{
+    transform: scale(1.1);
+}
+.zoomerOne:hover{
+    transform: scale(.8);
+}
+/* start section5   */
+
+.section5 {
+    background-color: rgb(150, 149, 149);
+    margin-top: 50px;
+    padding: 50 50 50 50;
+    color: #fff;
+}
+
+.section5img {
+  
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    transition: all 1s ease-in-out;
+}
+.section5img:hover{
+    background-color: #fff;
+    padding-top: 50px;
+
+}
+.section5img:hover p{
+    color: #000;
+}
+.section5all i{
+    font-size: 80px;
+    color: #000;
+}
+
+
+.section5text h3 {
+    font-family: "Work Sans";
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.section5text p {
+    font-size: 17px;
+    color: #fff;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+
+.a1 {
+    text-decoration: none;
+    color: #333333;
+    font-size: 25px;
+    font-family: "Work Sans";
+}
+
+.a2 {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    font-family: "Opean Sans ";
+    margin-bottom: 50px;
+}
+
+.p1 {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: "Opean Sans ";
+    margin-top: 5px;
+}
+
+.p2 {
+    color: #686868;
+    font-size: 15px;
+    font-family: "Opean Sans ";
+    margin-top: 5px;
+}
+
+.motemed {
+    background-color: #108ec4 !important;
+    width: 15%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* end section5   */
+
+
+
+/* start footer   */
+
+.footer {
+    background-color: #1b1b1b;
+    
+    margin-top: 50px;
+}
+
+
+.footer p {
+    color: #777;
+    font-size: 15px;
+}
+.footer i{
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+/* end footer   */
